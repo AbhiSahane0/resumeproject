@@ -1,194 +1,246 @@
-
-body{
-    margin: 0;  
-    background-color: #B4E4FF ;
-    text-align: center;
+body {
+  margin: 0;
+  text-align: center;
+  position: relative;
 }
 
-
-hr{
-    border: dotted #2E4F4F;
-    border-bottom: none;
-    margin: 30px auto;
-    width: 100px;
+hr {
+  border: dotted #2e4f4f;
+  border-bottom: none;
+  margin: 30px auto;
+  width: 100px;
 }
 
-
-.top-container{
-    position: relative;
-    padding-top: 0px;
-    text-align: center;
-}
-.nav{
-    background-color: #B4E4FF ;
-}
-.nav-item
-{
-    margin: 0 20px;
-    font-size: 20px;
-   
-}
-.nav-link{
-    color: #1C1259;
-}
-.container{
-    display: inline;
-}
-.my-name{
-    margin-top: 50px;
-    font-family: 'Sacramento', cursive;
-    font-weight: bold;
-    font-size: 70px;
-    color: #82CD47;
-}
-.my-profesion{
-    color: #539165;
-    font-size: 35px;
-    margin-top: 0;
-    font-family: 'Dancing Script', cursive;
-    font-weight:bold;
-}
-.logo-1{
-    position: absolute;
-    width: 250px;
-    left: 70px;
-    top: 50px;
+.top-container {
+  position: relative;
+  padding-top: 0px;
+  text-align: center;
 }
 
-.cloud-2{
-    position: absolute;
-    width: 200px;
-    right: 300px;
-    top: 150px;
+.nav-item {
+  margin: 0 20px;
+  font-size: 20px;
 }
-.cloud-3{
-    width: 200px;
-    position: absolute;
+.nav-link {
+  color: #1c1259;
 }
-.mountain-img{
-    margin-bottom: 40px;
+.container {
+  display: inline;
+}
+.my-name {
+  margin-top: 50px;
+  font-family: "Sacramento", cursive;
+  font-weight: bold;
+  font-size: 70px;
+  color: #ff9a9e;
+}
+.my-profesion {
+  color: #fad0c4; /* Updated to match the gradient colors */
+  font-size: 35px;
+  margin-top: 0;
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+}
+.logo-1 {
+  position: absolute;
+  width: 250px;
+  left: 70px;
+  top: 50px;
+  z-index: 1;
 }
 
-.work-title{
-    text-align: center;
-    font-size: 50px;
-    margin-top: 10px;
-    font-family: 'Tilt Neon', cursive;
-    color: #3F497F;
-    margin-bottom: 0px;
+.cloud-2 {
+  position: absolute;
+  width: 200px;
+  right: 300px;
+  top: 150px;
+  z-index: 1;
+}
+.cloud-3 {
+  width: 200px;
+  position: absolute;
+  z-index: 1;
+}
+.mountain-img {
+  margin-bottom: 40px;
+  z-index: 1;
 }
 
-.code-icon{
-    width:130px;
-    float: right;
-   margin-right: 20px;
+.work-title {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 10px;
+  font-family: "Tilt Neon", cursive;
+  color: #ff9a9e;
+  margin-bottom: 0px;
 }
 
-.work-info{
-    width: 50%;
-    text-align: left;
-    margin: auto;
-    line-height: 1.5;
+.code-icon {
+  width: 130px;
+  float: right;
+  margin-right: 20px;
 }
-.project-title{
-    color: #362FD9;
-    font-size: 20px;
-    text-align: left;
-    
+
+.work-info {
+  width: 50%;
+  text-align: left;
+  margin: auto;
+  line-height: 1.5;
 }
-.design-title{
-    color: #362FD9;
-    font-size: 20px;
-    text-align: left;
+.project-title {
+  color: #362fd9;
+  font-size: 20px;
+  text-align: left;
 }
-.project{
-    width: 50%;
-    margin: 50px auto 0 auto;
+.design-title {
+  color: #362fd9;
+  font-size: 20px;
+  text-align: left;
 }
-.project-logo{
-    float: left;
-    margin-right: 20px;
+.project {
+  width: 50%;
+  margin: 50px auto 0 auto;
 }
-.project-info{
-    line-height: 1.5;
-    text-align: left;
+.project-logo {
+  float: left;
+  margin-right: 20px;
 }
-.education{
-    width: 50%;
-    margin: auto;
+.project-info {
+  line-height: 1.5;
+  text-align: left;
 }
-.education-logo{
-    float: left;
-    margin-right: 20px;
+.education {
+  width: 50%;
+  margin: auto;
 }
-.education-info{
-    line-height: 1.5;
+.education-logo {
+  float: left;
+  margin-right: 20px;
 }
-.education-heading{
-    color: #362FD9;
-    font-size: 20px;
-    margin-top: 30px;
-    text-align: left;
+.education-info {
+  line-height: 1.5;
+  text-align: left;
 }
-.get-in-touch{
-    text-align: center;
-    color: #060047;
-    font-size: 35px;
-    font-family: 'Tilt Neon', cursive;
-    margin-bottom: 50px;
+.education-heading {
+  color: #362fd9;
+  font-size: 20px;
+  margin-top: 30px;
+  text-align: left;
 }
-.contact-me-heading{
-    text-align: center;
+.get-in-touch {
+  text-align: center;
+  color: #060047;
+  font-size: 35px;
+  font-family: "Tilt Neon", cursive;
+  margin-bottom: 50px;
+}
+.contact-me-heading {
+  text-align: center;
 }
 
 .btn {
-    background: #A555EC;
-    background-image: -webkit-linear-gradient(top, #A555EC, #A555EC);
-    background-image: -moz-linear-gradient(top, #A555EC, #A555EC);
-    background-image: -ms-linear-gradient(top, #A555EC, #A555EC);
-    background-image: -o-linear-gradient(top, #A555EC, #A555EC);
-    background-image: linear-gradient(to bottom, #A555EC, #A555EC);
-    -webkit-border-radius: 13;
-    -moz-border-radius: 13;
-    border-radius: 13px;
-    font-family: 'Tilt Neon', cursive;
-    color: #ffffff;
-    font-size: 20px;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-   
+  background: #a555ec;
+  background-image: -webkit-linear-gradient(top, #a555ec, #a555ec);
+  background-image: -moz-linear-gradient(top, #a555ec, #a555ec);
+  background-image: -ms-linear-gradient(top, #a555ec, #a555ec);
+  background-image: -o-linear-gradient(top, #a555ec, #a555ec);
+  background-image: linear-gradient(to bottom, #a555ec, #a555ec);
+  -webkit-border-radius: 13;
+  -moz-border-radius: 13;
+  border-radius: 13px;
+  font-family: "Tilt Neon", cursive;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
 }
-  
+
 .btn:hover {
-    background: #3cb0fd;
-    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-    text-decoration: none;
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
 }
-.fotter{
-    background-color: #8479E1;
-    margin: 50px auto 0 auto;
-    height: 100px;
-   
+.fotter {
+  /* background-color: #8479e1; */
+  margin: 50px auto 0 auto;
+  height: 100px;
 }
-.copyright{
-    margin-bottom: 0;
-    margin-top: 20px;
-    color: #F4F4F4;
-    font-size: 14px;
+.copyright {
+  margin-bottom: 0;
+  margin-top: 20px;
+  color: #8479e1;
+  font-size: 14px;
 }
-.contact{
-    display: inline-block;
-    margin-top: 30px;
-    text-decoration: none;
-    margin-left: 30px;
-    font-size: 20px;
-    font-family: 'Tilt Neon', cursive;
-    color: #1C1259;
+.contact {
+  display: inline-block;
+  margin-top: 30px;
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 20px;
+  font-family: "Tilt Neon", cursive;
+  color: #1c1259;
 }
-.contact:hover{
-    color: #D5DAEB;
+.contact:hover {
+  color: #d5daeb;
+}
+
+@keyframes floatUp {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes floatDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(30px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.cloud-2 {
+  animation: floatDown 5s ease-in-out infinite;
+}
+
+.cloud-3 {
+  animation: floatUp 5s ease-in-out infinite;
+}
+
+@keyframes gradientBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(270deg, #ff9a9e, #fad0c4, #fad0c4, #ff9a9e);
+  background-size: 600% 600%;
+  z-index: -1;
+  animation: gradientBackground 10s ease infinite;
 }
